@@ -8,7 +8,7 @@ import { Download, Search, Filter, Building, MapPin, Users, Target, Award, Trend
 const Dashboard = () => {
   return (
     <div className="min-h-screen bg-dashboard-gradient text-foreground">
-      {/* Enhanced Header with better spacing and typography */}
+      {/* Header */}
       <header className="border-b border-border/20 backdrop-blur-xl bg-background/10 sticky top-0 z-50">
         <div className="container mx-auto px-8 py-6">
           <div className="flex items-center justify-between">
@@ -39,9 +39,9 @@ const Dashboard = () => {
 
       <div className="container mx-auto px-8 py-10">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          {/* Enhanced Sidebar */}
+          {/* Sidebar */}
           <div className="lg:col-span-1 space-y-8 animate-slide-in">
-            {/* Current Project - Enhanced styling */}
+            {/* Current Project */}
             <Card className="bg-card-gradient border-border/30 backdrop-blur-sm shadow-2xl shadow-primary/10 hover:shadow-primary/20 transition-all duration-300">
               <div className="p-7">
                 <div className="flex items-center justify-between mb-6">
@@ -108,7 +108,7 @@ const Dashboard = () => {
               </div>
             </Card>
 
-            {/* Enhanced Smart Filters */}
+            {/* Smart Filters */}
             <Card className="bg-card-gradient border-border/30 backdrop-blur-sm shadow-2xl shadow-primary/10 hover:shadow-primary/20 transition-all duration-300">
               <div className="p-7">
                 <div className="flex items-center gap-3 mb-6">
@@ -173,9 +173,9 @@ const Dashboard = () => {
             </Card>
           </div>
 
-          {/* Enhanced Main Content */}
+          {/* Main Content */}
           <div className="lg:col-span-3 space-y-8 animate-fade-in">
-            {/* Project Header with better styling */}
+            {/* Project Header */}
             <div className="flex items-center justify-between p-6 bg-card-gradient rounded-xl border border-border/30 backdrop-blur-sm">
               <div className="flex items-center gap-4">
                 <Globe className="w-5 h-5 text-primary" />
@@ -187,7 +187,7 @@ const Dashboard = () => {
               </div>
             </div>
 
-            {/* Enhanced Metrics Cards */}
+            {/* Metrics Cards */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
                 { label: "Total", value: "0", color: "text-muted-foreground", icon: Users },
@@ -211,7 +211,7 @@ const Dashboard = () => {
               ))}
             </div>
 
-            {/* Enhanced Main Content Area */}
+            {/* Main Content Area */}
             <Card className="bg-card-gradient border-border/30 backdrop-blur-sm min-h-[500px] shadow-2xl shadow-primary/10 hover:shadow-primary/20 transition-all duration-300">
               <div className="p-12 flex flex-col items-center justify-center text-center">
                 <div className="w-20 h-20 bg-gradient-to-br from-secondary/50 to-secondary/30 rounded-2xl flex items-center justify-center mb-8 ring-4 ring-secondary/20">
